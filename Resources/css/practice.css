@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: white;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    }
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section {
+    padding: 80px;
+}
+header {
+    background-image: linear-gradient(rgba(0, 128, 0, 0.514), rgba(0, 128, 0, 0.514)), url(img/dahlia-red-blossom-bloom-60597.jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+h1 {
+    margin: 0%;
+    color: white;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+h2     {
+        margin: 0%;
+        color: green;
+        font-size: 250%;
+        font-weight: 300;
+        text-transform: uppercase;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+        text-align: center;
+        
+}
+h3 {
+    margin: 0%;
+        color: green;
+        font-size: 100%;
+        text-transform: uppercase;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+        text-align: left;
+}
+.long-text {
+   line-height: 145%;
+   width:80%;
+   margin-left: 10%;
+}
+.box {
+    padding: 1px;
+}
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+
+}
+
+.tayo {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300px;
+    text-decoration: none;
+}
+.tayo-go {
+    background-color: white;
+    border-radius: 200px;
+}
+/*---section for photo-----*/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+.meal-section {
+    padding: 0;
+}
+.meal-show {
+    list-style: none;
+    width: 100%;
+}
+.meal-show li {
+    display: block;
+    float: left;
+    width: 25%;   
+}
+.meal-photo {
+    width: 100%;
+    margin: o;
+    overflow: hidden;
+    background-color: black;
+}
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height:auto; 
+    transform: scale(1.15); 
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+.meal-photo img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+/*---section for app-----*/
+.section-step {
+    background-color: #f5f5f5;
+}
+.step-in {
+    margin-top: 30px;
+}
+.step-in:first-child {
+    text-align: right;
+    padding: 3%;
+    margin-top: 30px;
+
+}
+.step-in:last-child {
+    padding: 3%;
+    margin-top: 70px;
+
+}
+.app-screen {
+    width: 40%;
+}
+.works-step {
+    margin-bottom: 50px;
+}
+.works-step div {
+    color: green;
+    border: 2px solid gray;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 10px;
+
+}
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
